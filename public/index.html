@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi App Chat con Websockets</title>
+</head>
+<body>
+    
+    <h1>Mi App Chat</h1>
+    <div id="mensajes"></div>
+
+    <form>
+        <input type="text" id="autor" placeholder="Tu nombre">
+        <input type="text" id="texto" placeholder="Cuéntanos algo...">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <script src="/socket.io/socket.io.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
